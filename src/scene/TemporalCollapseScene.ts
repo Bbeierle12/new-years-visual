@@ -511,7 +511,7 @@ export class TemporalCollapseScene {
     this.renderer.render(this.scene, this.camera);
   };
 
-  private updateTimeParticles(time: number, dt: number, progress: number, dramaticIntensity: number) {
+  private updateTimeParticles(time: number, _dt: number, progress: number, dramaticIntensity: number) {
     const positions = this.timeParticles.geometry.attributes.position.array as Float32Array;
     const count = positions.length / 3;
 
