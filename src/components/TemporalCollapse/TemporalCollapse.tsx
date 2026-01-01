@@ -18,7 +18,7 @@ export function TemporalCollapse() {
     return midnight.getTime();
   });
 
-  const [useDebug, setUseDebug] = useState(true);
+  const [useDebug, setUseDebug] = useState(false);
   const [debugProgress, setDebugProgress] = useState(0);
   const [smoothProgress, setSmoothProgress] = useState(0);
 
